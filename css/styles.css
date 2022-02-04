@@ -1,24 +1,28 @@
 body {
-  background: #4B4B4B;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: fadein 1s;
+  color: #fafafa;
 }
 
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-svg path,
-svg rect {
-  fill: #FAFAFA;
+#app {
+  margin-top: 0;
+  margin-left: 0;
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: x-large;
 }
 
 .success {
-    background: #45b748;
+  background: #45b748;
+}
+
+.fadeAway {
+  animation: fadeout 0.2s;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
