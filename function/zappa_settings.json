@@ -1,0 +1,10 @@
+{
+    "production": {
+        "app_function": "app.app",
+        "aws_region": "eu-west-3",
+        "profile_name": "default",
+        "project_name": "zappa-mixes",
+        "runtime": "python3.11",
+        "s3_bucket": "zappa-4awvbngu8"
+    }
+}
