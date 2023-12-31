@@ -19,7 +19,7 @@ export default class DomApp {
 
   submitUrl(url) {
     // Create the URL
-    const baseUrl = "https://b4cr11wfgd.execute-api.us-east-1.amazonaws.com/default/mixes-testing?q=";
+    const baseUrl = "https://5xz0at31wl.execute-api.eu-west-3.amazonaws.com/production?q=";
     const fullUrl = baseUrl + url;
 
     // Send the URL to the Firebase function
